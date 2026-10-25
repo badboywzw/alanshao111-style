@@ -1,0 +1,4 @@
+interface:
+  display_name: "Alan 风格短帖"
+  short_description: "把自律、复利与个人影响力主题写成短句鲜明、带行动落点的原创中文短帖"
+  default_prompt: "使用 $alanshao111-style，围绕「停止空想，先交出第一个作品」写 5 条原创短帖。"
