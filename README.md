@@ -1,8 +1,8 @@
-# Alan 风格短帖 · Codex Skill
+# 邵艾伦（Alan）风格短帖 · Codex Skill
 
-把一个观点写得短、直、有画面。从 @AlanShao111 的样本分析中提炼短句、反差、自嘲和行动落点，用来写用户自己的原创中文社交内容。
+把一个观点写得短、直、有画面。从邵艾伦（Alan，@AlanShao111）的样本分析中提炼短句、反差、自嘲和行动落点，用来写用户自己的原创中文社交内容。
 
-![AlanShao111 写作风格介绍](assets/style-overview.png)
+![邵艾伦 AlanShao111 写作风格介绍](assets/style-overview.png)
 
 > 上图由用户提供，展示报告样本中的历史数据与原帖。它是风格说明，不代表本项目获得原作者授权、合作或背书。
 
