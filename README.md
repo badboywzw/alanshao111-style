@@ -89,7 +89,7 @@
 
 ## 装好就能用
 
-下载本仓库，把整个 `alanshao111-style` 文件夹放进你的 Codex 用户 Skill 目录，通常是 `~/.codex/skills/`；设置了 `CODEX_HOME` 时使用它下面的 `skills/`。然后在新对话里调用 `$alanshao111-style`。
+下载本仓库，把整个 `alanshao111-style` 文件夹导入你使用的工具，或放进它所支持的技能目录。保持 `SKILL.md`、`references/` 和 `assets/` 的相对位置，然后在对话中使用这套写作方法。
 
 也可以先克隆：
 
@@ -97,13 +97,13 @@
 git clone https://github.com/badboywzw/alanshao111-style.git
 ```
 
-Windows 用户可在下载后的仓库目录运行安装脚本，自动放入当前用户的 Skill 目录：
+Windows 用户也可以在仓库目录运行安装脚本。将下面的路径占位文字替换为你使用的技能目录完整路径：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -SkillRoot "你的技能目录完整路径"
 ```
 
-已有自定义存储位置时，可用 `-SkillRoot` 指定。脚本不会覆盖内容不同的已有安装。
+安装位置由你指定，脚本不会预设某个平台或磁盘，也不会覆盖内容不同的已有安装。
 
 ## 这套方法怎么来的？
 
@@ -111,6 +111,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
 
 - [SKILL.md](SKILL.md)：真正供 AI 调用的写作方法。
 - [写作手册](references/writing-playbook.md)：句式、改写路径和更多原创示例。
-- [完整蒸馏报告](references/source-report.md)：人物画像、11 条思维模型、表达风格与爆款规律，保留原帖出处。
+- [蒸馏报告整理版](references/source-report.md)：人物画像、11 条思维模型、表达风格与爆款规律，保留原帖出处。
 
 这是独立整理的风格研究项目。生成内容使用你自己的身份与事实；引用原帖会标明出处。原报告里的角色提示词作为资料保留，不直接执行。图片由用户提供，原帖、图片及作者标识的权利归各自权利人。
